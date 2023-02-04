@@ -31,7 +31,7 @@ public class Soal1 {
      * @return untuk mengembalikan string input yang telah dipisah
      */
     public static String[] splitSentences(String sentence) {
-        return sentence.split("[@'!.?, _]+");
+        return sentence.split("[@'!.?, _]+"); // untuk memisah string sentence
     }
 }
 
