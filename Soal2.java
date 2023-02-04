@@ -25,7 +25,7 @@ public class Soal2 {
             String firstPart = parts[0].toLowerCase();
             int secondPart = Integer.parseInt(parts[1]);
             
-            System.out.printf("%-15s%03d\n", firstPart, secondPart);
+            System.out.printf("%-15s%03d\n", firstPart, secondPart); // format seperti ini agar string yang diprint pas jaraknya dengan int yang akan diprint
         }
         System.out.println("===============");
     }   
